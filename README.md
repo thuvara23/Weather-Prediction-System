@@ -54,7 +54,7 @@ weather-prediction/
 ### 1. Clone Repository
 
 ```bash
-git clone [https://github.com/your-username/WeatherPrediction.git](https://github.com/your-username/WeatherPrediction.git)
+git clone [(https://github.com/thuvara23/Weather-Prediction-System)]
 cd WeatherPrediction
 
 ```
@@ -119,7 +119,8 @@ model = MLPRegressor(
 
 ## 📸 Application Preview
 
-*Insert your screenshots here:*
+<img width="1911" height="1020" alt="Screenshot 2026-10-29 201916" src="https://github.com/user-attachments/assets/14db9cb4-9015-4529-94e2-3f818b0ee699" />
+
 
 
 ---
