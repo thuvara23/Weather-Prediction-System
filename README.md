@@ -1,17 +1,17 @@
 # 🌦️ ETSP Weather Prediction System
 
-An interactive, machine-learning-based Weather Prediction Dashboard that provides real-time weather information, hourly forecasts, 5-day forecasts, and AI-based temperature prediction using a Neural Network[cite: 1].
+An interactive, machine-learning-based Weather Prediction Dashboard that provides real-time weather information, hourly forecasts, 5-day forecasts, and AI-based temperature prediction using a Neural Network.
 
 ---
 
 ## 🚀 Features
 
-* **Search weather by city name:** Automatic geolocation using Open-Meteo Geocoding API[cite: 1].
-* **Current weather conditions:** Real-time visibility, temperature, humidity, and wind speed tracking[cite: 1].
-* **Hourly weather updates:** View immediate forecasts for upcoming hours[cite: 1].
-* **5-Day weather forecast:** Daily breakdowns including weather codes and high/low temperature ranges[cite: 1].
-* **AI temperature prediction:** Uses `MLPRegressor` (Multi-Layer Perceptron artificial neural network) to predict next-day values[cite: 1].
-* **Interactive dashboard:** Beautifully designed web dashboard built entirely with Streamlit[cite: 1].
+* **Search weather by city name:** Automatic geolocation using Open-Meteo Geocoding API.
+* **Current weather conditions:** Real-time visibility, temperature, humidity, and wind speed tracking.
+* **Hourly weather updates:** View immediate forecasts for upcoming hours.
+* **5-Day weather forecast:** Daily breakdowns including weather codes and high/low temperature ranges.
+* **AI temperature prediction:** Uses `MLPRegressor` (Multi-Layer Perceptron artificial neural network) to predict next-day values.
+* **Interactive dashboard:** Beautifully designed web dashboard built entirely with Streamlit.
 
 ---
 
@@ -21,19 +21,19 @@ An interactive, machine-learning-based Weather Prediction Dashboard that provide
 * Python
 
 ### 🌐 Libraries & Frameworks
-* **Streamlit:** Frontend web app framework[cite: 1].
-* **Requests:** Seamless Open-Meteo API data retrieval[cite: 1].
-* **scikit-learn:** AI scaling (`MinMaxScaler`) and Machine Learning prediction (`MLPRegressor`)[cite: 1].
-* **NumPy:** Linear algebra and data processing[cite: 1].
+* **Streamlit:** Frontend web app framework.
+* **Requests:** Seamless Open-Meteo API data retrieval.
+* **scikit-learn:** AI scaling (`MinMaxScaler`) and Machine Learning prediction (`MLPRegressor`).
+* **NumPy:** Linear algebra and data processing.
 
 ### 🤖 Machine Learning
-* Artificial Neural Networks (ANN)[cite: 1]
-* MLPRegressor[cite: 1]
-* MinMaxScaler[cite: 1]
+* Artificial Neural Networks (ANN)
+* MLPRegressor
+* MinMaxScaler
 
 ### 🛰️ APIs
-* Open-Meteo Weather API[cite: 1]
-* Open-Meteo Geocoding API[cite: 1]
+* Open-Meteo Weather API
+* Open-Meteo Geocoding API
 
 ---
 
@@ -87,7 +87,7 @@ The application will start in your browser at:
 
 ## 🧠 Machine Learning Model
 
-The system uses a Multi-Layer Perceptron Regressor (`MLPRegressor`)[cite: 1] from Scikit-Learn to estimate the next temperature value based on the current temperature.
+The system uses a Multi-Layer Perceptron Regressor (`MLPRegressor`) from Scikit-Learn to estimate the next temperature value based on the current temperature.
 
 ### ⚙️ Configuration
 
@@ -100,20 +100,20 @@ model = MLPRegressor(
 
 ```
 
-1. **Fetch:** Current weather data is fetched from Open-Meteo API[cite: 1].
-2. **Scale:** Temperature values are scaled using `MinMaxScaler`[cite: 1].
-3. **Train:** MLP neural network model is trained on sample temperature data[cite: 1].
-4. **Predict:** Climate temperature prediction is generated[cite: 1].
-5. **Display:** Results are displayed on the Streamlit dashboard[cite: 1].
+1. **Fetch:** Current weather data is fetched from Open-Meteo API.
+2. **Scale:** Temperature values are scaled using `MinMaxScaler`.
+3. **Train:** MLP neural network model is trained on sample temperature data.
+4. **Predict:** Climate temperature prediction is generated.
+5. **Display:** Results are displayed on the Streamlit dashboard.
 
 ---
 
 ## 📊 Dashboard Modules
 
-* **Current Weather:** Temperature, humidity, wind speed, and weather condition[cite: 1].
-* **AI Prediction:** Neural Network-based temperature forecasting[cite: 1].
-* **Hourly Forecast:** Hourly temperature updates and precipitation probability[cite: 1].
-* **5-Day Forecast:** Maximum & minimum temperature and weather conditions[cite: 1].
+* **Current Weather:** Temperature, humidity, wind speed, and weather condition.
+* **AI Prediction:** Neural Network-based temperature forecasting.
+* **Hourly Forecast:** Hourly temperature updates and precipitation probability.
+* **5-Day Forecast:** Maximum & minimum temperature and weather conditions.
 
 ---
 
